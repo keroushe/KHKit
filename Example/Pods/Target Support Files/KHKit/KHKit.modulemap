@@ -1,0 +1,6 @@
+framework module KHKit {
+  umbrella header "KHKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "KHKit",
+  "version": "0.1.0",
+  "summary": "KHKit 包含日常所用到的Util、Category、Views",
+  "description": "KHKit 包含日常所用到的Util、Category、Views",
+  "homepage": "https://github.com/keroushe/KHKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "keroushe": "935823671@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/keroushe/KHKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KHKit/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

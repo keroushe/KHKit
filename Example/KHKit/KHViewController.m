@@ -7,6 +7,7 @@
 //
 
 #import "KHViewController.h"
+#import <KHKit/KHCategoryHeader.h>
 
 @interface KHViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%.f", self.view.kh_right);
 }
 
 - (void)didReceiveMemoryWarning

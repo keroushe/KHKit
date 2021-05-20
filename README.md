@@ -22,7 +22,7 @@ pod 'KHKit'
 
 ## Author
 
-keroushe, hexueshi@cnest.net
+keroushe, 935823671@qq.com
 
 ## License
 
