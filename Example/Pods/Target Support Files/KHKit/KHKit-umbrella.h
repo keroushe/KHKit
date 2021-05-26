@@ -24,6 +24,7 @@
 #import "SNKHUtil.h"
 #import "SNKHBaseTableViewCell.h"
 #import "SNKHBaseView.h"
+#import "SNKHPresent.h"
 
 FOUNDATION_EXPORT double KHKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char KHKitVersionString[];

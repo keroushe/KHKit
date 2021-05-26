@@ -7,130 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085D1FBFF1B35167697762B3AD7DEC86 /* UITextField+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5F5D2C7D0B36454CE232119ACCC3F3 /* UITextField+Setting.m */; };
-		0C9A466183BC1523D228FD14156B9B51 /* NSURL+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B0AE1C95B305BCBE4C3578C8E84D4D /* NSURL+Extension.m */; };
-		191FA845D7EA3B0ED76EEAB7B9C2FA0D /* SNKHBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C6C4FD067363C7E5D985DF8CA55E176 /* SNKHBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B2C64F2ED774B057D4FFDE8662EC737 /* SNKHUtil+GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A9F5B41581E7980C9F0CE8024F492F /* SNKHUtil+GCDTimer.m */; };
-		34366F8617520F07ECFAF92D20D1251B /* NSURL+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C6BB4F891973F2A7A438D3D533F6C4 /* NSURL+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36404FDC16601AAE1545B35C79633B7A /* UIView+KHLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CA3466613148DAA5AC62E5B8B86117 /* UIView+KHLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37CFE63AC8761D7B5FC86E902F44990C /* UIView+Indicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3A0A3475CCBF699DCCF39D9475F105 /* UIView+Indicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38FBA503231208B5D0FC29366112BB89 /* UITextField+Setting.h in Headers */ = {isa = PBXBuildFile; fileRef = F480D7E2211D3C97310724DCD2C7E80D /* UITextField+Setting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08642209F6523392774D04D5F7D714F3 /* SNKHBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC7EE83ACCEFCD88A2D943655C5C9C2 /* SNKHBaseTableViewCell.m */; };
+		0C88CCBB93437CE192E42E62B323403B /* UIView+Indicator.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FA3948A62BA9F7D9D4159A680321A6 /* UIView+Indicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E7287D8C718132E1A21C4E428D3A0BA /* UIView+KHLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D72374ACAFC25FCAD41F4519D1D86C36 /* UIView+KHLayout.m */; };
+		0F764C67470B6B4D829A307D50D847C9 /* SNKHUtil+GCDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2080963177D76BAC7CE768A98AD8A363 /* SNKHUtil+GCDTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A9C0D317F21D56953D447D3E0232F0D /* UITextField+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9C6A622FCFC9933F8B1755ED2DC5D /* UITextField+Setting.m */; };
+		2210346EDE94E84D2E5F89E305E2251E /* NSURL+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C8F411EE06BDE1B07096BE2A0F463F /* NSURL+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		244D3A9D73E28C2A890145673648EE4A /* NSString+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E04D9FA4493664ECEFDE5CA0D45D6D /* NSString+Setting.m */; };
+		28B6710AC2436E1519736800C4068744 /* NSString+Setting.h in Headers */ = {isa = PBXBuildFile; fileRef = A68CA6B03C2B8D8FCAC4F805CFCB0912 /* NSString+Setting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3540A8B88FB0B161A10021C63D344DA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3648DF1E1B101C0AD857312FC1E8D20A /* NSURL+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4452E73A4691D16D0802CB90BDCFC0 /* NSURL+Extension.m */; };
 		39106BC5EFCD7C921BFD963F88ED5DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		3C5A9F05100E42DA63F69D37F25E4EAA /* SNKHUtil+GCDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0115042C9DCE4323BFD2EBDB35225544 /* SNKHUtil+GCDTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E3D1EFA3B1A7E7C84435A4FB4B31670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		62D374FEECBEF496525DF372EE6B726E /* KHKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC93DD98CE53D774CC40314781FAF2B /* KHKit-dummy.m */; };
-		69C97417F2B8229BBE3B5829A6F330F5 /* SNKHBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE77E934550EDC13734A65BD2085DA2 /* SNKHBaseTableViewCell.m */; };
-		6C755504B9444981D8AD6B48AC4C0F50 /* UILabel+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = A465EEC7C762D81328F6AD405C3741A3 /* UILabel+Setting.m */; };
-		6EC2C19CDF7E6471E9C031A70E655B52 /* KHKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01318563FB1CB99AFDC0CA8AA8F14ABD /* KHKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		722826FBEBAF05D799AFA1698BF188CE /* UIView+KHLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8DEAB4B20F479ED5BE948D01131017 /* UIView+KHLayout.m */; };
-		77323D5FDB386F1FC46572891B583B6C /* NSString+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 282666C88DE0C21BB1360556ED97D7BB /* NSString+Setting.m */; };
-		7AA3593C53D751C7E0CF07D229BFA3F0 /* SNKHBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FE12834825A4CD4CEF7C160BD90DCC /* SNKHBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D9E51E6432B26570286256DE62B4916 /* UIView+Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F264F4C3053B27A255E5A757760C4CAB /* UIView+Indicator.m */; };
-		8044C4D4F4EF906E122FA0F26275E84A /* UIWindow+KHSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BED761E5C42D466DA9FECB15BBF5308 /* UIWindow+KHSafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		827C5BB152F19174BC47E958CC6F756D /* KHUtilHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4114AC92F84ACE403211B2ED51FEBD /* KHUtilHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		862976DBE6A36A7D6D90E9441EDB36B7 /* UIButton+Setting.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5ED901B94D68BF979317C824D17CBC /* UIButton+Setting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D42E06107C88642CCA0480CA067096D /* UILabel+Setting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD146651E53D6F4618EB1A924FF3251 /* UILabel+Setting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F9B2B58C557902CEE2F834D05813B83 /* SNKHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C120543C16C5D17FFBCDE391D2E45A /* SNKHBaseView.m */; };
-		96478FDC905EA02D6E202FDF8D3ACF93 /* UIWindow+KHSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC34B96704B9539620878F857D5DDB /* UIWindow+KHSafeArea.m */; };
-		9B48B19DC66F4A236347DA31A30D5E8C /* UIButton+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0078A1ACD8E06B66064EF7AFA210CA /* UIButton+Setting.m */; };
-		A72D145C6C8079A2ADC3147EE4CA0088 /* SNKHUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC71F9D0CCDE973AFAC10B593E74775 /* SNKHUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACBAC0AAFCE9E13D98A8DCF75A31E18B /* NSString+Setting.h in Headers */ = {isa = PBXBuildFile; fileRef = AA03C3747B460077997786C40632B798 /* NSString+Setting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E48FF867242243AEFB1983218DB7F1F /* SNKHPresent.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F75C105FD085870CEE6D2ABA1078E7 /* SNKHPresent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F1CE85BFB18C8491F4CEB70ADBDD1F7 /* UIView+Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDCABF24EF1FDE166B9FB4B3979BDE8 /* UIView+Indicator.m */; };
+		4CF5C9B644F096670AEB3EFBB9D66C23 /* UIView+KHLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FBE71D51DF36577A10DB2804E9E4856 /* UIView+KHLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		521B5B8AFB17ABA5688A90925726A7A1 /* UITextField+Setting.h in Headers */ = {isa = PBXBuildFile; fileRef = F1ECBAC5A2D79CFC9303E33D991F5B9F /* UITextField+Setting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		563D5E8136032343C1D8A2CF6BB371E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		64330277E14D9A560E58696055E67929 /* UIWindow+KHSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = F52F08A44A7CDDB960F4DE6293BC3A6B /* UIWindow+KHSafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D78DEF0D7C5665360D5AAC5E62ED04 /* SNKHUtil+GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C14AC78C09DFB80A2C5AEDD48776D399 /* SNKHUtil+GCDTimer.m */; };
+		7A6C77CF8C64DB92D6871E7DA59EEB7D /* SNKHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F54EA90639B1EA0F0BC8FE0AB22917 /* SNKHBaseView.m */; };
+		7B2751EB3BB1208F4919964B3EE1E543 /* SNKHUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF6855B4DEDA88DAF821FAE1CFCD92 /* SNKHUtil.m */; };
+		7B3D5153FC5CE28D5B824219E49DA41F /* SNKHBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA17A5D49428C2BD21D2BEE169FFD11 /* SNKHBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E0EBD1EDE216CECB3A6737B3E2084E /* KHKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5F1A4356F2AF6CAE2998A38EFACC1C /* KHKit-dummy.m */; };
+		9B25C76BB37515A8BF77821D68C15550 /* UILabel+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = F638FC7736353358FE8EDBE841F129CC /* UILabel+Setting.m */; };
+		9BA6B770E3D0BC2096E5F76FC93A99F2 /* UILabel+Setting.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A2646D3BA70A3CC930A6B104FF6751 /* UILabel+Setting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59DC888AE169F4CA90EBB1139F51FD2 /* SNKHPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B800C2DBF636C6BB78750612519C0 /* SNKHPresent.m */; };
+		A81A8A0B3DCA42F10194EA6889D95F23 /* SNKHBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8217851B247BCAD017406A4C0AE5B3 /* SNKHBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C8764F39E085EECDB09313DEF13DA2 /* UIWindow+KHSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 347B2D5ADD13CE2DFDD53DC8FB54E559 /* UIWindow+KHSafeArea.m */; };
 		B54A774F7DE155398E9D029FE353B431 /* Pods-KHKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C874D86200DD54FCA7F45602A3B43D9C /* Pods-KHKit_Example-dummy.m */; };
 		B94C95E392298850F406B19625FDD980 /* Pods-KHKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE08C3A3ACD33BDE6AEB4F3C378115 /* Pods-KHKit_Tests-dummy.m */; };
-		BC7012A8280F568FDC5F9637F79E57A6 /* KHCategoryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AD54A61948C39F69B29B286CD1DA1EC8 /* KHCategoryHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEB8AA30A5350254530CE31C8C4D30E6 /* Pods-KHKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4B66AF822F5BB92E1AD6BC8018D974 /* Pods-KHKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D02B1942F3D651F6A5168334CFFEC455 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		D90011B7836129EE7FC4CD0F139D6B93 /* SNKHUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFE607DBAA1AF01ECA432307EC4A291 /* SNKHUtil.m */; };
+		C789F763BB46130F96407CD7B532D531 /* KHCategoryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 322592509429818EAF4959CDFED5D534 /* KHCategoryHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57FBF21238C86B9C558AE89B0448A27 /* UIButton+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F284698E6AB72E41A2A6D64006AC5F /* UIButton+Setting.m */; };
+		D90E17AC3B4B4F89AB5ED824867F08C1 /* SNKHUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5F60B49CDCF33B55ADAA0898B5178A /* SNKHUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C583420BE7683AE1A469979C288E39 /* UIButton+Setting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE48207BFF02C1AE6CC19BA90464BA2 /* UIButton+Setting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA49A43963F3A38C2512575315B6B66A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		DAA86A020C1BF1007C079A53CE0859EA /* Pods-KHKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5AF353FAC7B6DC34B8E03A676B7433 /* Pods-KHKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFD88437F70E363465B82B208E981B58 /* KHKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD1C4C87783D611E97F565F5CCA2636 /* KHKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C6284859351B857BA122D94F427E8B /* KHUtilHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 15194127CA0E580266A8019E15989A27 /* KHUtilHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0803007A52532B724CD9E2F65C5F1966 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0454073FAFB36C17BD08AC254F28D81;
-			remoteInfo = "Pods-KHKit_Example";
-		};
-		57AD752719041E2DF6050ED9AB3FCBCA /* PBXContainerItemProxy */ = {
+		0656D0CE2828A7DC7B1A37E7A5CBC58A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5509F1878587E93DCCC26234CCF2BEE8;
 			remoteInfo = KHKit;
 		};
+		9294CB19144968C7B2AA2B81D1F14358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0454073FAFB36C17BD08AC254F28D81;
+			remoteInfo = "Pods-KHKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A9F5B41581E7980C9F0CE8024F492F /* SNKHUtil+GCDTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNKHUtil+GCDTimer.m"; sourceTree = "<group>"; };
-		0115042C9DCE4323BFD2EBDB35225544 /* SNKHUtil+GCDTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNKHUtil+GCDTimer.h"; sourceTree = "<group>"; };
-		01318563FB1CB99AFDC0CA8AA8F14ABD /* KHKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KHKit-umbrella.h"; sourceTree = "<group>"; };
-		01C6BB4F891973F2A7A438D3D533F6C4 /* NSURL+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extension.h"; sourceTree = "<group>"; };
-		099BC4E0DE000EBC565BA409AF9B7156 /* KHKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KHKit.modulemap; sourceTree = "<group>"; };
 		0D64F6FDE3BA97795036056E7A1FBB63 /* Pods-KHKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		131C22E6835F7967A18E890E621B101D /* Pods-KHKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHKit_Example-Info.plist"; sourceTree = "<group>"; };
+		15194127CA0E580266A8019E15989A27 /* KHUtilHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KHUtilHeader.h; sourceTree = "<group>"; };
 		1876BDF4AF91F18242EEDDB0CB78FBAA /* Pods-KHKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1B4B66AF822F5BB92E1AD6BC8018D974 /* Pods-KHKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KHKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1C6C4FD067363C7E5D985DF8CA55E176 /* SNKHBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNKHBaseView.h; sourceTree = "<group>"; };
 		1D7380789BC261D53C7D6A128E64584B /* Pods_KHKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KHKit_Example.framework; path = "Pods-KHKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		282666C88DE0C21BB1360556ED97D7BB /* NSString+Setting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Setting.m"; sourceTree = "<group>"; };
+		2080963177D76BAC7CE768A98AD8A363 /* SNKHUtil+GCDTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNKHUtil+GCDTimer.h"; sourceTree = "<group>"; };
 		2B5AF353FAC7B6DC34B8E03A676B7433 /* Pods-KHKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KHKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		2BED761E5C42D466DA9FECB15BBF5308 /* UIWindow+KHSafeArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+KHSafeArea.h"; sourceTree = "<group>"; };
-		2CDD8189788D921B4EDE53DB00784184 /* KHKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KHKit-prefix.pch"; sourceTree = "<group>"; };
-		2F0078A1ACD8E06B66064EF7AFA210CA /* UIButton+Setting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Setting.m"; sourceTree = "<group>"; };
-		2F4114AC92F84ACE403211B2ED51FEBD /* KHUtilHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KHUtilHeader.h; sourceTree = "<group>"; };
+		322592509429818EAF4959CDFED5D534 /* KHCategoryHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KHCategoryHeader.h; sourceTree = "<group>"; };
 		33AA015E8C07E97F656F0A53DBFEA65E /* Pods-KHKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		3D3A0A3475CCBF699DCCF39D9475F105 /* UIView+Indicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Indicator.h"; sourceTree = "<group>"; };
-		3EDC34B96704B9539620878F857D5DDB /* UIWindow+KHSafeArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+KHSafeArea.m"; sourceTree = "<group>"; };
-		3FD146651E53D6F4618EB1A924FF3251 /* UILabel+Setting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Setting.h"; sourceTree = "<group>"; };
+		347B2D5ADD13CE2DFDD53DC8FB54E559 /* UIWindow+KHSafeArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+KHSafeArea.m"; sourceTree = "<group>"; };
+		3DE48207BFF02C1AE6CC19BA90464BA2 /* UIButton+Setting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Setting.h"; sourceTree = "<group>"; };
+		3FD7EE788FAE68ED68793E79D3DE562A /* KHKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KHKit-Info.plist"; sourceTree = "<group>"; };
 		4091EAA1BE6E80D43734A0F70A8E8F9B /* Pods-KHKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		48D9A819CFF20E14750A43E3BE366DFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		48F4B99098E2A274EC71FE099ED4518D /* Pods_KHKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KHKit_Tests.framework; path = "Pods-KHKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA17A5D49428C2BD21D2BEE169FFD11 /* SNKHBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNKHBaseView.h; sourceTree = "<group>"; };
 		4CCE08C3A3ACD33BDE6AEB4F3C378115 /* Pods-KHKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KHKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		52EA14317051AB6010F0F03CD3573A8B /* KHKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KHKit.release.xcconfig; sourceTree = "<group>"; };
-		59FE12834825A4CD4CEF7C160BD90DCC /* SNKHBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNKHBaseTableViewCell.h; sourceTree = "<group>"; };
+		51BF6855B4DEDA88DAF821FAE1CFCD92 /* SNKHUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNKHUtil.m; sourceTree = "<group>"; };
+		5F4452E73A4691D16D0802CB90BDCFC0 /* NSURL+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extension.m"; sourceTree = "<group>"; };
+		6354F9584A1B0FE9453BC436572F40FA /* KHKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KHKit-prefix.pch"; sourceTree = "<group>"; };
+		66F284698E6AB72E41A2A6D64006AC5F /* UIButton+Setting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Setting.m"; sourceTree = "<group>"; };
+		6DDCABF24EF1FDE166B9FB4B3979BDE8 /* UIView+Indicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Indicator.m"; sourceTree = "<group>"; };
 		6F0B4AA716934BD97ED87F737AE43B8E /* KHKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KHKit.framework; path = KHKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F8DEAB4B20F479ED5BE948D01131017 /* UIView+KHLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+KHLayout.m"; sourceTree = "<group>"; };
-		73E8346931487E5714309F65B41AFE33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		74A539DB862AB45DCD6A506912673978 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		76AB278C9DA6D32F990638D084DBB6C0 /* KHKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KHKit.debug.xcconfig; sourceTree = "<group>"; };
+		73F75C105FD085870CEE6D2ABA1078E7 /* SNKHPresent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNKHPresent.h; sourceTree = "<group>"; };
+		78C8F411EE06BDE1B07096BE2A0F463F /* NSURL+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extension.h"; sourceTree = "<group>"; };
+		7E6B800C2DBF636C6BB78750612519C0 /* SNKHPresent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNKHPresent.m; sourceTree = "<group>"; };
 		7FCC527C01E7E2056BECB905A1201313 /* Pods-KHKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KHKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		87C120543C16C5D17FFBCDE391D2E45A /* SNKHBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNKHBaseView.m; sourceTree = "<group>"; };
-		8B5ED901B94D68BF979317C824D17CBC /* UIButton+Setting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Setting.h"; sourceTree = "<group>"; };
 		8CB898C171843D68CF862C5F676EFFDD /* Pods-KHKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8FC71F9D0CCDE973AFAC10B593E74775 /* SNKHUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNKHUtil.h; sourceTree = "<group>"; };
+		8FBE71D51DF36577A10DB2804E9E4856 /* UIView+KHLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+KHLayout.h"; sourceTree = "<group>"; };
 		9018BFB37B5BC53A526029FD199EAC1E /* Pods-KHKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KHKit_Example.modulemap"; sourceTree = "<group>"; };
-		98B0AE1C95B305BCBE4C3578C8E84D4D /* NSURL+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extension.m"; sourceTree = "<group>"; };
+		9503EE1CA2B1160D5AE8111F40B29F7D /* KHKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KHKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A465EEC7C762D81328F6AD405C3741A3 /* UILabel+Setting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Setting.m"; sourceTree = "<group>"; };
+		9E19055183BB54CB64D2F37A8E77DC22 /* KHKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KHKit.debug.xcconfig; sourceTree = "<group>"; };
+		A0A2646D3BA70A3CC930A6B104FF6751 /* UILabel+Setting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Setting.h"; sourceTree = "<group>"; };
+		A68CA6B03C2B8D8FCAC4F805CFCB0912 /* NSString+Setting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Setting.h"; sourceTree = "<group>"; };
 		A7F10E12E2AE391C9C1DB13722E5ABE6 /* Pods-KHKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KHKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AA03C3747B460077997786C40632B798 /* NSString+Setting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Setting.h"; sourceTree = "<group>"; };
-		AD54A61948C39F69B29B286CD1DA1EC8 /* KHCategoryHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KHCategoryHeader.h; sourceTree = "<group>"; };
+		AF5F60B49CDCF33B55ADAA0898B5178A /* SNKHUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNKHUtil.h; sourceTree = "<group>"; };
 		B4E3871CCFF04590FA803C341926F242 /* Pods-KHKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KHKit_Tests.modulemap"; sourceTree = "<group>"; };
-		BDC93DD98CE53D774CC40314781FAF2B /* KHKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KHKit-dummy.m"; sourceTree = "<group>"; };
+		BAC9C6A622FCFC9933F8B1755ED2DC5D /* UITextField+Setting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Setting.m"; sourceTree = "<group>"; };
+		BD5F1A4356F2AF6CAE2998A38EFACC1C /* KHKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KHKit-dummy.m"; sourceTree = "<group>"; };
+		C14AC78C09DFB80A2C5AEDD48776D399 /* SNKHUtil+GCDTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNKHUtil+GCDTimer.m"; sourceTree = "<group>"; };
 		C1C838E91F3E89DF19D79A3DAF10FDD5 /* Pods-KHKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KHKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C7CA3466613148DAA5AC62E5B8B86117 /* UIView+KHLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+KHLayout.h"; sourceTree = "<group>"; };
+		C61CF4CB8F5F061753A76ACF3E302CB4 /* KHKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KHKit.release.xcconfig; sourceTree = "<group>"; };
 		C874D86200DD54FCA7F45602A3B43D9C /* Pods-KHKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KHKit_Example-dummy.m"; sourceTree = "<group>"; };
-		CBFE607DBAA1AF01ECA432307EC4A291 /* SNKHUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNKHUtil.m; sourceTree = "<group>"; };
 		CDD058F956ED150103EF07EE4D6B1EF9 /* Pods-KHKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D1F54EA90639B1EA0F0BC8FE0AB22917 /* SNKHBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNKHBaseView.m; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D5B86C40E4779C6785C0FA320E60BBE9 /* KHKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KHKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DB509B3BEFC38F806C82D4056F0D00AA /* KHKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KHKit-Info.plist"; sourceTree = "<group>"; };
-		DBE77E934550EDC13734A65BD2085DA2 /* SNKHBaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNKHBaseTableViewCell.m; sourceTree = "<group>"; };
+		D5E764369BACE8B729FDE63435E353B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D72374ACAFC25FCAD41F4519D1D86C36 /* UIView+KHLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+KHLayout.m"; sourceTree = "<group>"; };
+		E8E04D9FA4493664ECEFDE5CA0D45D6D /* NSString+Setting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Setting.m"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EFD1C4C87783D611E97F565F5CCA2636 /* KHKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KHKit-umbrella.h"; sourceTree = "<group>"; };
+		F177ED6DF986B2149EB157923C683B52 /* KHKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KHKit.modulemap; sourceTree = "<group>"; };
 		F189C1E01291E465AC7191087D04E990 /* Pods-KHKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F264F4C3053B27A255E5A757760C4CAB /* UIView+Indicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Indicator.m"; sourceTree = "<group>"; };
-		F480D7E2211D3C97310724DCD2C7E80D /* UITextField+Setting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+Setting.h"; sourceTree = "<group>"; };
-		FD5F5D2C7D0B36454CE232119ACCC3F3 /* UITextField+Setting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Setting.m"; sourceTree = "<group>"; };
+		F1ECBAC5A2D79CFC9303E33D991F5B9F /* UITextField+Setting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+Setting.h"; sourceTree = "<group>"; };
+		F3FA3948A62BA9F7D9D4159A680321A6 /* UIView+Indicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Indicator.h"; sourceTree = "<group>"; };
+		F52F08A44A7CDDB960F4DE6293BC3A6B /* UIWindow+KHSafeArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+KHSafeArea.h"; sourceTree = "<group>"; };
+		F638FC7736353358FE8EDBE841F129CC /* UILabel+Setting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Setting.m"; sourceTree = "<group>"; };
+		FDC7EE83ACCEFCD88A2D943655C5C9C2 /* SNKHBaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNKHBaseTableViewCell.m; sourceTree = "<group>"; };
+		FE8217851B247BCAD017406A4C0AE5B3 /* SNKHBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNKHBaseTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0371672511CAE931FAA63F586B6DBDBB /* Frameworks */ = {
+		B12BEFE0A852EE036E65B03CE476B588 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E3D1EFA3B1A7E7C84435A4FB4B31670 /* Foundation.framework in Frameworks */,
-				D02B1942F3D651F6A5168334CFFEC455 /* UIKit.framework in Frameworks */,
+				3540A8B88FB0B161A10021C63D344DA6 /* Foundation.framework in Frameworks */,
+				563D5E8136032343C1D8A2CF6BB371E5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +157,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1111782AE6BE94DFAB928D546E50CB29 /* KHViews */ = {
+			isa = PBXGroup;
+			children = (
+				FE8217851B247BCAD017406A4C0AE5B3 /* SNKHBaseTableViewCell.h */,
+				FDC7EE83ACCEFCD88A2D943655C5C9C2 /* SNKHBaseTableViewCell.m */,
+				4CA17A5D49428C2BD21D2BEE169FFD11 /* SNKHBaseView.h */,
+				D1F54EA90639B1EA0F0BC8FE0AB22917 /* SNKHBaseView.m */,
+				73F75C105FD085870CEE6D2ABA1078E7 /* SNKHPresent.h */,
+				7E6B800C2DBF636C6BB78750612519C0 /* SNKHPresent.m */,
+			);
+			name = KHViews;
+			path = KHKit/Classes/KHViews;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,29 +179,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2813C19BEF41AB7CD4377BE4F155CD16 /* KHCategorys */ = {
+		28BFBCA47454B23F3BA0A43E47BD2B57 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD54A61948C39F69B29B286CD1DA1EC8 /* KHCategoryHeader.h */,
-				AA03C3747B460077997786C40632B798 /* NSString+Setting.h */,
-				282666C88DE0C21BB1360556ED97D7BB /* NSString+Setting.m */,
-				01C6BB4F891973F2A7A438D3D533F6C4 /* NSURL+Extension.h */,
-				98B0AE1C95B305BCBE4C3578C8E84D4D /* NSURL+Extension.m */,
-				8B5ED901B94D68BF979317C824D17CBC /* UIButton+Setting.h */,
-				2F0078A1ACD8E06B66064EF7AFA210CA /* UIButton+Setting.m */,
-				3FD146651E53D6F4618EB1A924FF3251 /* UILabel+Setting.h */,
-				A465EEC7C762D81328F6AD405C3741A3 /* UILabel+Setting.m */,
-				F480D7E2211D3C97310724DCD2C7E80D /* UITextField+Setting.h */,
-				FD5F5D2C7D0B36454CE232119ACCC3F3 /* UITextField+Setting.m */,
-				3D3A0A3475CCBF699DCCF39D9475F105 /* UIView+Indicator.h */,
-				F264F4C3053B27A255E5A757760C4CAB /* UIView+Indicator.m */,
-				C7CA3466613148DAA5AC62E5B8B86117 /* UIView+KHLayout.h */,
-				6F8DEAB4B20F479ED5BE948D01131017 /* UIView+KHLayout.m */,
-				2BED761E5C42D466DA9FECB15BBF5308 /* UIWindow+KHSafeArea.h */,
-				3EDC34B96704B9539620878F857D5DDB /* UIWindow+KHSafeArea.m */,
+				F177ED6DF986B2149EB157923C683B52 /* KHKit.modulemap */,
+				BD5F1A4356F2AF6CAE2998A38EFACC1C /* KHKit-dummy.m */,
+				3FD7EE788FAE68ED68793E79D3DE562A /* KHKit-Info.plist */,
+				6354F9584A1B0FE9453BC436572F40FA /* KHKit-prefix.pch */,
+				EFD1C4C87783D611E97F565F5CCA2636 /* KHKit-umbrella.h */,
+				9E19055183BB54CB64D2F37A8E77DC22 /* KHKit.debug.xcconfig */,
+				C61CF4CB8F5F061753A76ACF3E302CB4 /* KHKit.release.xcconfig */,
 			);
-			name = KHCategorys;
-			path = KHKit/Classes/KHCategorys;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KHKit";
+			sourceTree = "<group>";
+		};
+		3562F6C47AA776B20F77A00C3BD697D5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9503EE1CA2B1160D5AE8111F40B29F7D /* KHKit.podspec */,
+				D5E764369BACE8B729FDE63435E353B6 /* LICENSE */,
+				48D9A819CFF20E14750A43E3BE366DFC /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3813B2FF9DF9EBEA41722AED77FC3F0F /* Pods-KHKit_Example */ = {
@@ -219,19 +237,6 @@
 			path = "Target Support Files/Pods-KHKit_Tests";
 			sourceTree = "<group>";
 		};
-		4E6D610C0C3E2C0631590E88CE7AF440 /* KHKit */ = {
-			isa = PBXGroup;
-			children = (
-				2813C19BEF41AB7CD4377BE4F155CD16 /* KHCategorys */,
-				E5FFC8BFD3FD71DB7E06DBF158CF133D /* KHUtils */,
-				6D97876D3411DA3A23BED17321FE74F0 /* KHViews */,
-				5FB8FCFC64F8CAD318EF810663EBD83C /* Pod */,
-				A0CB2309BE85B53E1545CF109E3AFEBF /* Support Files */,
-			);
-			name = KHKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		525014324911BA1FD4BEABBCA538DAD8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,32 +255,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5FB8FCFC64F8CAD318EF810663EBD83C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D5B86C40E4779C6785C0FA320E60BBE9 /* KHKit.podspec */,
-				74A539DB862AB45DCD6A506912673978 /* LICENSE */,
-				73E8346931487E5714309F65B41AFE33 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6D97876D3411DA3A23BED17321FE74F0 /* KHViews */ = {
-			isa = PBXGroup;
-			children = (
-				59FE12834825A4CD4CEF7C160BD90DCC /* SNKHBaseTableViewCell.h */,
-				DBE77E934550EDC13734A65BD2085DA2 /* SNKHBaseTableViewCell.m */,
-				1C6C4FD067363C7E5D985DF8CA55E176 /* SNKHBaseView.h */,
-				87C120543C16C5D17FFBCDE391D2E45A /* SNKHBaseView.m */,
-			);
-			name = KHViews;
-			path = KHKit/Classes/KHViews;
-			sourceTree = "<group>";
-		};
 		736EB030DEBD1410F7F00D451DC4639B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E6D610C0C3E2C0631590E88CE7AF440 /* KHKit */,
+				7F843BCF9C5E99B5AC604D65B2D0468D /* KHKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -290,19 +273,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0CB2309BE85B53E1545CF109E3AFEBF /* Support Files */ = {
+		7F843BCF9C5E99B5AC604D65B2D0468D /* KHKit */ = {
 			isa = PBXGroup;
 			children = (
-				099BC4E0DE000EBC565BA409AF9B7156 /* KHKit.modulemap */,
-				BDC93DD98CE53D774CC40314781FAF2B /* KHKit-dummy.m */,
-				DB509B3BEFC38F806C82D4056F0D00AA /* KHKit-Info.plist */,
-				2CDD8189788D921B4EDE53DB00784184 /* KHKit-prefix.pch */,
-				01318563FB1CB99AFDC0CA8AA8F14ABD /* KHKit-umbrella.h */,
-				76AB278C9DA6D32F990638D084DBB6C0 /* KHKit.debug.xcconfig */,
-				52EA14317051AB6010F0F03CD3573A8B /* KHKit.release.xcconfig */,
+				EAEA2B258ED7632EB18051E46F5EAAFA /* KHCategorys */,
+				9C5C2FA9CE446E14DB9D824342C49B90 /* KHUtils */,
+				1111782AE6BE94DFAB928D546E50CB29 /* KHViews */,
+				3562F6C47AA776B20F77A00C3BD697D5 /* Pod */,
+				28BFBCA47454B23F3BA0A43E47BD2B57 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KHKit";
+			name = KHKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9C5C2FA9CE446E14DB9D824342C49B90 /* KHUtils */ = {
+			isa = PBXGroup;
+			children = (
+				15194127CA0E580266A8019E15989A27 /* KHUtilHeader.h */,
+				AF5F60B49CDCF33B55ADAA0898B5178A /* SNKHUtil.h */,
+				51BF6855B4DEDA88DAF821FAE1CFCD92 /* SNKHUtil.m */,
+				2080963177D76BAC7CE768A98AD8A363 /* SNKHUtil+GCDTimer.h */,
+				C14AC78C09DFB80A2C5AEDD48776D399 /* SNKHUtil+GCDTimer.m */,
+			);
+			name = KHUtils;
+			path = KHKit/Classes/KHUtils;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -316,17 +310,29 @@
 			);
 			sourceTree = "<group>";
 		};
-		E5FFC8BFD3FD71DB7E06DBF158CF133D /* KHUtils */ = {
+		EAEA2B258ED7632EB18051E46F5EAAFA /* KHCategorys */ = {
 			isa = PBXGroup;
 			children = (
-				2F4114AC92F84ACE403211B2ED51FEBD /* KHUtilHeader.h */,
-				8FC71F9D0CCDE973AFAC10B593E74775 /* SNKHUtil.h */,
-				CBFE607DBAA1AF01ECA432307EC4A291 /* SNKHUtil.m */,
-				0115042C9DCE4323BFD2EBDB35225544 /* SNKHUtil+GCDTimer.h */,
-				00A9F5B41581E7980C9F0CE8024F492F /* SNKHUtil+GCDTimer.m */,
+				322592509429818EAF4959CDFED5D534 /* KHCategoryHeader.h */,
+				A68CA6B03C2B8D8FCAC4F805CFCB0912 /* NSString+Setting.h */,
+				E8E04D9FA4493664ECEFDE5CA0D45D6D /* NSString+Setting.m */,
+				78C8F411EE06BDE1B07096BE2A0F463F /* NSURL+Extension.h */,
+				5F4452E73A4691D16D0802CB90BDCFC0 /* NSURL+Extension.m */,
+				3DE48207BFF02C1AE6CC19BA90464BA2 /* UIButton+Setting.h */,
+				66F284698E6AB72E41A2A6D64006AC5F /* UIButton+Setting.m */,
+				A0A2646D3BA70A3CC930A6B104FF6751 /* UILabel+Setting.h */,
+				F638FC7736353358FE8EDBE841F129CC /* UILabel+Setting.m */,
+				F1ECBAC5A2D79CFC9303E33D991F5B9F /* UITextField+Setting.h */,
+				BAC9C6A622FCFC9933F8B1755ED2DC5D /* UITextField+Setting.m */,
+				F3FA3948A62BA9F7D9D4159A680321A6 /* UIView+Indicator.h */,
+				6DDCABF24EF1FDE166B9FB4B3979BDE8 /* UIView+Indicator.m */,
+				8FBE71D51DF36577A10DB2804E9E4856 /* UIView+KHLayout.h */,
+				D72374ACAFC25FCAD41F4519D1D86C36 /* UIView+KHLayout.m */,
+				F52F08A44A7CDDB960F4DE6293BC3A6B /* UIWindow+KHSafeArea.h */,
+				347B2D5ADD13CE2DFDD53DC8FB54E559 /* UIWindow+KHSafeArea.m */,
 			);
-			name = KHUtils;
-			path = KHKit/Classes/KHUtils;
+			name = KHCategorys;
+			path = KHKit/Classes/KHCategorys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +346,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		43B95FA18FE1D2052528D5273C8560AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C789F763BB46130F96407CD7B532D531 /* KHCategoryHeader.h in Headers */,
+				DFD88437F70E363465B82B208E981B58 /* KHKit-umbrella.h in Headers */,
+				F8C6284859351B857BA122D94F427E8B /* KHUtilHeader.h in Headers */,
+				28B6710AC2436E1519736800C4068744 /* NSString+Setting.h in Headers */,
+				2210346EDE94E84D2E5F89E305E2251E /* NSURL+Extension.h in Headers */,
+				A81A8A0B3DCA42F10194EA6889D95F23 /* SNKHBaseTableViewCell.h in Headers */,
+				7B3D5153FC5CE28D5B824219E49DA41F /* SNKHBaseView.h in Headers */,
+				3E48FF867242243AEFB1983218DB7F1F /* SNKHPresent.h in Headers */,
+				0F764C67470B6B4D829A307D50D847C9 /* SNKHUtil+GCDTimer.h in Headers */,
+				D90E17AC3B4B4F89AB5ED824867F08C1 /* SNKHUtil.h in Headers */,
+				D9C583420BE7683AE1A469979C288E39 /* UIButton+Setting.h in Headers */,
+				9BA6B770E3D0BC2096E5F76FC93A99F2 /* UILabel+Setting.h in Headers */,
+				521B5B8AFB17ABA5688A90925726A7A1 /* UITextField+Setting.h in Headers */,
+				0C88CCBB93437CE192E42E62B323403B /* UIView+Indicator.h in Headers */,
+				4CF5C9B644F096670AEB3EFBB9D66C23 /* UIView+KHLayout.h in Headers */,
+				64330277E14D9A560E58696055E67929 /* UIWindow+KHSafeArea.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A05E18FE55EF67086D8734CED555134E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,39 +377,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F320BCC3BBB275B416FB8DF47B8E169C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC7012A8280F568FDC5F9637F79E57A6 /* KHCategoryHeader.h in Headers */,
-				6EC2C19CDF7E6471E9C031A70E655B52 /* KHKit-umbrella.h in Headers */,
-				827C5BB152F19174BC47E958CC6F756D /* KHUtilHeader.h in Headers */,
-				ACBAC0AAFCE9E13D98A8DCF75A31E18B /* NSString+Setting.h in Headers */,
-				34366F8617520F07ECFAF92D20D1251B /* NSURL+Extension.h in Headers */,
-				7AA3593C53D751C7E0CF07D229BFA3F0 /* SNKHBaseTableViewCell.h in Headers */,
-				191FA845D7EA3B0ED76EEAB7B9C2FA0D /* SNKHBaseView.h in Headers */,
-				3C5A9F05100E42DA63F69D37F25E4EAA /* SNKHUtil+GCDTimer.h in Headers */,
-				A72D145C6C8079A2ADC3147EE4CA0088 /* SNKHUtil.h in Headers */,
-				862976DBE6A36A7D6D90E9441EDB36B7 /* UIButton+Setting.h in Headers */,
-				8D42E06107C88642CCA0480CA067096D /* UILabel+Setting.h in Headers */,
-				38FBA503231208B5D0FC29366112BB89 /* UITextField+Setting.h in Headers */,
-				37CFE63AC8761D7B5FC86E902F44990C /* UIView+Indicator.h in Headers */,
-				36404FDC16601AAE1545B35C79633B7A /* UIView+KHLayout.h in Headers */,
-				8044C4D4F4EF906E122FA0F26275E84A /* UIWindow+KHSafeArea.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5509F1878587E93DCCC26234CCF2BEE8 /* KHKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30AF6B7023E2B64067D86804B967CAAA /* Build configuration list for PBXNativeTarget "KHKit" */;
+			buildConfigurationList = 177F23DF49C74C4129837B01F772FB1F /* Build configuration list for PBXNativeTarget "KHKit" */;
 			buildPhases = (
-				F320BCC3BBB275B416FB8DF47B8E169C /* Headers */,
-				7285BED7F433797050DE416D8B763794 /* Sources */,
-				0371672511CAE931FAA63F586B6DBDBB /* Frameworks */,
-				E3A6ABB3856334B34D43817B7B6758B2 /* Resources */,
+				43B95FA18FE1D2052528D5273C8560AA /* Headers */,
+				630C8D9CEDEEBA8EF24FB87C20A47BD7 /* Sources */,
+				B12BEFE0A852EE036E65B03CE476B588 /* Frameworks */,
+				627343717B7DE7F1C23205FE70BD7FED /* Resources */,
 			);
 			buildRules = (
 			);
@@ -403,7 +410,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7D397FFAB77A1AB1D5E9B7B3F843BB43 /* PBXTargetDependency */,
+				002FB7F408281A7ED50A6231AACA8C84 /* PBXTargetDependency */,
 			);
 			name = "Pods-KHKit_Example";
 			productName = "Pods-KHKit_Example";
@@ -422,7 +429,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8878BBC75F7CE10C2B1D15211077557C /* PBXTargetDependency */,
+				A80BBF19AF622F48D55C3CC0F6FAB855 /* PBXTargetDependency */,
 			);
 			name = "Pods-KHKit_Tests";
 			productName = "Pods-KHKit_Tests";
@@ -473,7 +480,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3A6ABB3856334B34D43817B7B6758B2 /* Resources */ = {
+		627343717B7DE7F1C23205FE70BD7FED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -483,23 +490,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7285BED7F433797050DE416D8B763794 /* Sources */ = {
+		630C8D9CEDEEBA8EF24FB87C20A47BD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D374FEECBEF496525DF372EE6B726E /* KHKit-dummy.m in Sources */,
-				77323D5FDB386F1FC46572891B583B6C /* NSString+Setting.m in Sources */,
-				0C9A466183BC1523D228FD14156B9B51 /* NSURL+Extension.m in Sources */,
-				69C97417F2B8229BBE3B5829A6F330F5 /* SNKHBaseTableViewCell.m in Sources */,
-				8F9B2B58C557902CEE2F834D05813B83 /* SNKHBaseView.m in Sources */,
-				1B2C64F2ED774B057D4FFDE8662EC737 /* SNKHUtil+GCDTimer.m in Sources */,
-				D90011B7836129EE7FC4CD0F139D6B93 /* SNKHUtil.m in Sources */,
-				9B48B19DC66F4A236347DA31A30D5E8C /* UIButton+Setting.m in Sources */,
-				6C755504B9444981D8AD6B48AC4C0F50 /* UILabel+Setting.m in Sources */,
-				085D1FBFF1B35167697762B3AD7DEC86 /* UITextField+Setting.m in Sources */,
-				7D9E51E6432B26570286256DE62B4916 /* UIView+Indicator.m in Sources */,
-				722826FBEBAF05D799AFA1698BF188CE /* UIView+KHLayout.m in Sources */,
-				96478FDC905EA02D6E202FDF8D3ACF93 /* UIWindow+KHSafeArea.m in Sources */,
+				83E0EBD1EDE216CECB3A6737B3E2084E /* KHKit-dummy.m in Sources */,
+				244D3A9D73E28C2A890145673648EE4A /* NSString+Setting.m in Sources */,
+				3648DF1E1B101C0AD857312FC1E8D20A /* NSURL+Extension.m in Sources */,
+				08642209F6523392774D04D5F7D714F3 /* SNKHBaseTableViewCell.m in Sources */,
+				7A6C77CF8C64DB92D6871E7DA59EEB7D /* SNKHBaseView.m in Sources */,
+				A59DC888AE169F4CA90EBB1139F51FD2 /* SNKHPresent.m in Sources */,
+				65D78DEF0D7C5665360D5AAC5E62ED04 /* SNKHUtil+GCDTimer.m in Sources */,
+				7B2751EB3BB1208F4919964B3EE1E543 /* SNKHUtil.m in Sources */,
+				D57FBF21238C86B9C558AE89B0448A27 /* UIButton+Setting.m in Sources */,
+				9B25C76BB37515A8BF77821D68C15550 /* UILabel+Setting.m in Sources */,
+				1A9C0D317F21D56953D447D3E0232F0D /* UITextField+Setting.m in Sources */,
+				3F1CE85BFB18C8491F4CEB70ADBDD1F7 /* UIView+Indicator.m in Sources */,
+				0E7287D8C718132E1A21C4E428D3A0BA /* UIView+KHLayout.m in Sources */,
+				B2C8764F39E085EECDB09313DEF13DA2 /* UIWindow+KHSafeArea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,17 +530,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7D397FFAB77A1AB1D5E9B7B3F843BB43 /* PBXTargetDependency */ = {
+		002FB7F408281A7ED50A6231AACA8C84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KHKit;
 			target = 5509F1878587E93DCCC26234CCF2BEE8 /* KHKit */;
-			targetProxy = 57AD752719041E2DF6050ED9AB3FCBCA /* PBXContainerItemProxy */;
+			targetProxy = 0656D0CE2828A7DC7B1A37E7A5CBC58A /* PBXContainerItemProxy */;
 		};
-		8878BBC75F7CE10C2B1D15211077557C /* PBXTargetDependency */ = {
+		A80BBF19AF622F48D55C3CC0F6FAB855 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KHKit_Example";
 			target = A0454073FAFB36C17BD08AC254F28D81 /* Pods-KHKit_Example */;
-			targetProxy = 0803007A52532B724CD9E2F65C5F1966 /* PBXContainerItemProxy */;
+			targetProxy = 9294CB19144968C7B2AA2B81D1F14358 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -733,9 +741,9 @@
 			};
 			name = Debug;
 		};
-		57D676512E06C1CCF5F3C4E7CA7527DD /* Release */ = {
+		439A4D547EF99E7E77551B40B22FE47D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52EA14317051AB6010F0F03CD3573A8B /* KHKit.release.xcconfig */;
+			baseConfigurationReference = C61CF4CB8F5F061753A76ACF3E302CB4 /* KHKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -764,9 +772,9 @@
 			};
 			name = Release;
 		};
-		749FA50D36D188984FC69DF667FF7942 /* Debug */ = {
+		607B2F44B370DC442ECE3D9B31B47016 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76AB278C9DA6D32F990638D084DBB6C0 /* KHKit.debug.xcconfig */;
+			baseConfigurationReference = 9E19055183BB54CB64D2F37A8E77DC22 /* KHKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -859,20 +867,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		177F23DF49C74C4129837B01F772FB1F /* Build configuration list for PBXNativeTarget "KHKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607B2F44B370DC442ECE3D9B31B47016 /* Debug */,
+				439A4D547EF99E7E77551B40B22FE47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1EFA9C2EC6A95AA63BD169F2E650B9B0 /* Build configuration list for PBXNativeTarget "Pods-KHKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17B91A3B6BE3E91DCECC4D6CA0A24102 /* Debug */,
 				260478AF4C6DC8C4333B10A6A9470909 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		30AF6B7023E2B64067D86804B967CAAA /* Build configuration list for PBXNativeTarget "KHKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				749FA50D36D188984FC69DF667FF7942 /* Debug */,
-				57D676512E06C1CCF5F3C4E7CA7527DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

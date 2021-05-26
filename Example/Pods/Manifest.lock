@@ -1,5 +1,5 @@
 PODS:
-  - KHKit (0.1.0)
+  - KHKit (0.1.1)
 
 DEPENDENCIES:
   - KHKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KHKit: 39cedf11154a761624aa109a28a7536456d0c158
+  KHKit: c61284360b07aeb1b4d7c73284cdf342234f8560
 
 PODFILE CHECKSUM: 887da61f4c2ff88c98cf6df5117bbc57fc28e787
 
