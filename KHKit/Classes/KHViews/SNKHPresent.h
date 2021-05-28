@@ -10,12 +10,20 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol SNKHPresentDelegate <NSObject>
+@required
+- (void)startAcceptDataRefreshUI;
+- (void)endAcceptDataRefreshUIWithsuccess:(BOOL)success;
+
+@end
+
 @interface SNKHPresent : NSObject
 
-@property (nonatomic, weak) UINavigationController *navigationController;
+@property (nonatomic, weak, readonly) id<SNKHPresentDelegate> delegate;
+@property (nonatomic, weak, readonly) UINavigationController *navigationController;
 
 - (instancetype)init NS_UNAVAILABLE;
-- (instancetype)initWithNavigationController:(UINavigationController *)navigationController;
+- (instancetype)initWithNavigationController:(UINavigationController *)navigationController Delegate:(id<SNKHPresentDelegate>)delegate;
 
 @end
 

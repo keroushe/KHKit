@@ -9,11 +9,12 @@
 
 @implementation SNKHPresent
 
-- (instancetype)initWithNavigationController:(UINavigationController *)navigationController
+- (instancetype)initWithNavigationController:(UINavigationController *)navigationController Delegate:(id<SNKHPresentDelegate>)delegate
 {
     self = [super init];
     if (self) {
         _navigationController = navigationController;
+        _delegate = delegate;
     }
     return self;
 }
