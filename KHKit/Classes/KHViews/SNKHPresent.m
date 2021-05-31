@@ -7,6 +7,11 @@
 
 #import "SNKHPresent.h"
 
+@implementation NSObject (SNKHPresentDelegate)
+- (void)startAcceptDataRefreshUI {}
+- (void)endAcceptDataRefreshUIWithsuccess:(BOOL)success {}
+@end
+
 @implementation SNKHPresent
 
 - (instancetype)initWithNavigationController:(UINavigationController *)navigationController Delegate:(id<SNKHPresentDelegate>)delegate
@@ -17,6 +22,10 @@
         _delegate = delegate;
     }
     return self;
+}
+
+- (void)startAcceptAllData
+{// 子类重写
 }
 
 @end

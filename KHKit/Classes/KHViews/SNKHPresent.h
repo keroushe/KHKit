@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol SNKHPresentDelegate <NSObject>
-@required
+@optional
 - (void)startAcceptDataRefreshUI;
 - (void)endAcceptDataRefreshUIWithsuccess:(BOOL)success;
 
@@ -24,6 +24,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithNavigationController:(UINavigationController *)navigationController Delegate:(id<SNKHPresentDelegate>)delegate;
+
+#pragma mark - need override
+- (void)startAcceptAllData;
 
 @end
 
