@@ -13,31 +13,13 @@
 {
     _kh_originText = text;
     
-    if (_secureRange.location == NSNotFound)
+    // 生成密文
+    NSMutableString *secureText = [[NSMutableString alloc] init];
+    for (int i = 0; i < _kh_originText.length; ++i)
     {
-        NSMutableString *secureText = [[NSMutableString alloc] init];
-        for (int i = 0; i < _kh_originText.length; ++i)
-        {
-            [secureText appendString:@"•"];
-        }
-        _kh_secureText = secureText;
+        [secureText appendString:@"•"];
     }
-    else
-    {
-        NSMutableString *secureText = [[NSMutableString alloc] init];
-        for (int i = 0; i < _kh_originText.length; ++i)
-        {
-            if (i >= _secureRange.location && i < (_secureRange.location + _secureRange.length))
-            {
-                [secureText appendString:@"•"];
-            }
-            else
-            {
-                [secureText appendFormat:@"%c", [_kh_originText characterAtIndex:i]];
-            }
-        }
-        _kh_secureText = secureText;
-    }
+    _kh_secureText = secureText;
     
     [self setKh_secureTextEntry:self.kh_secureTextEntry];
 }
