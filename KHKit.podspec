@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KHKit'
-  s.version          = '101'
+  s.version          = '102'
   s.summary          = 'KHKit 包含日常所用到的Util、Category、Views'
 
 # This description is used to generate tags and improve search results.
