@@ -5,11 +5,18 @@ VersionNumber=`tr -cd 0-9 <<<"$VersionString"`
 NewVersionNumber=$(($VersionNumber + 1))
 LineNumber=`grep -nE 's.version.*=' KHKit.podspec | cut -d : -f1`
 
+echo "VersionString is ${VersionString}"
+echo "VersionNumber is ${VersionNumber}"
+echo "NewVersionNumber is ${NewVersionNumber}"
+echo "LineNumber is ${LineNumber}"
+
 git add .
 git commit -am modification
 git pull origin master --tags
 
 sed -i "" "${LineNumber}s/${VersionNumber}/${NewVersionNumber}/g" KHKit.podspec
+
+exit
 
 echo "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
 say "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
