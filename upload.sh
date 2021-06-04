@@ -16,10 +16,10 @@ git pull origin master --tags
 
 sed -i "" "${LineNumber}s/${VersionNumber}/${NewVersionNumber}/g" KHKit.podspec
 
-exit
-
 echo "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
 say "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
+
+exit
 
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
