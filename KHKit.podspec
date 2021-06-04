@@ -30,7 +30,19 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KHKit/Classes/**/*'
+  s.source_files = 'KHKit/Classes/KHKit.h'
+  
+  s.subspec 'KHCategorys' do |ss|
+      ss.source_files = 'KHKit/Classes/KHCategorys/**/*.{h,m}'
+  end
+  
+  s.subspec 'KHUtils' do |ss|
+      ss.source_files = 'KHKit/Classes/KHUtils/**/*.{h,m}'
+  end
+  
+  s.subspec 'KHViews' do |ss|
+      ss.source_files = 'KHKit/Classes/KHViews/**/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'KHKit' => ['KHKit/Assets/*.png']
@@ -38,5 +50,4 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

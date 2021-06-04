@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "KHKit.h"
 #import "KHCategoryHeader.h"
 #import "NSString+Setting.h"
 #import "NSURL+Extension.h"

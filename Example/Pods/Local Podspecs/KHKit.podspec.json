@@ -18,9 +18,23 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "KHKit/Classes/**/*",
+  "source_files": "KHKit/Classes/KHKit.h",
   "frameworks": [
     "UIKit",
     "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "KHCategorys",
+      "source_files": "KHKit/Classes/KHCategorys/**/*.{h,m}"
+    },
+    {
+      "name": "KHUtils",
+      "source_files": "KHKit/Classes/KHUtils/**/*.{h,m}"
+    },
+    {
+      "name": "KHViews",
+      "source_files": "KHKit/Classes/KHViews/**/*.{h,m}"
+    }
   ]
 }
