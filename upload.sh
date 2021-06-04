@@ -23,7 +23,6 @@ git commit -am ${NewVersionNumber}
 git tag "${NewVersionNumber}"
 git push origin master --tags
 
-exit
 # pod trunk push ./KHKit.podspec --verbose --use-libraries --allow-warnings
 pod spec lint KHKit.podspec --verbose --allow-warnings --sources='https://github.com/CocoaPods/Specs.git,https://github.com/keroushe/KHSpecs.git'
 pod repo push KHSpecs KHKit.podspec --verbose --allow-warnings
