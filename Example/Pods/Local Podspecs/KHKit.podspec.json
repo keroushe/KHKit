@@ -1,6 +1,6 @@
 {
   "name": "KHKit",
-  "version": "0.1.8",
+  "version": "101",
   "summary": "KHKit 包含日常所用到的Util、Category、Views",
   "description": "KHKit 包含日常所用到的Util、Category、Views",
   "homepage": "https://github.com/keroushe/KHKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/keroushe/KHKit.git",
-    "tag": "0.1.8"
+    "tag": "101"
   },
   "platforms": {
     "ios": "9.0"
