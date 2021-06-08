@@ -1,11 +1,11 @@
 PODS:
-  - KHKit (101):
-    - KHKit/KHCategorys (= 101)
-    - KHKit/KHUtils (= 101)
-    - KHKit/KHViews (= 101)
-  - KHKit/KHCategorys (101)
-  - KHKit/KHUtils (101)
-  - KHKit/KHViews (101)
+  - KHKit (1.0.3):
+    - KHKit/KHCategorys (= 1.0.3)
+    - KHKit/KHUtils (= 1.0.3)
+    - KHKit/KHViews (= 1.0.3)
+  - KHKit/KHCategorys (1.0.3)
+  - KHKit/KHUtils (1.0.3)
+  - KHKit/KHViews (1.0.3)
 
 DEPENDENCIES:
   - KHKit (from `../`)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KHKit: a8eed43cf820dd6c9a9beb89fb85ae67fc0ff23e
+  KHKit: bf7d5e3ee36501799aa38e696524b1fafccd462f
 
 PODFILE CHECKSUM: 887da61f4c2ff88c98cf6df5117bbc57fc28e787
 
